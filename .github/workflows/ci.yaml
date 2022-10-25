@@ -19,3 +19,5 @@ jobs:
       run: yarn lint
     - name: Run tests with Jest
       run: yarn test
+    - name: run Type tests with TS
+      run: yarn ts type-check
