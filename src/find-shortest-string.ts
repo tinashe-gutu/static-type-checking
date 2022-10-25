@@ -12,7 +12,7 @@
         shortestString = str;
       }
     }
-    return shortestString.length;
+    return shortestString;
   }
   
   export default findShortestString;
